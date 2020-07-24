@@ -15,5 +15,50 @@
 
 <body>
   <h1>Sprint Challenge - Check your work in the console!</h1>
+
+  <section>
+    <h2> Interview Questions</h2>
+
+    <p> 1. Briefly compare and contrast .forEach & .map (2-3 sentences max) </p>
+    <p> 
+      .map() is primarily used to manipulate a data set and creates a new array unlike .forEach().
+      .forEach() iterates through every element of a data set and is used to inspect each element of the data set.
+    </p>
+    </br>
+
+    <p> 2. Explain the difference between a callback and a higher order function. </p>
+    <p>
+      A higher order function is a function that takes in another function as a parameter, while a callback is the function argument that the higher order function is taking in.    
+    </p>
+    </br> 
+
+    <p> 3. What is closure? </p>
+    <p>
+      Closure is the concept that when a function is created, it can reach outward for context but never being able to reach in directly. 
+    </p>
+    </br>
+
+    <p> 4. Describe the four rules of the 'this' keyword. </p>
+    <p>
+      a) Global/Window binding: when in global scope, the value of ‘this’ will be the window/console object.
+      This is done by default and usually is not the desired output.
+    </p>
+    <p>
+      b) Implicit Binding: when a function is called by a preceding dot, the object left of the dot gets ‘this’. 
+    </p>
+    <p>
+      c) New Binding: whenever a constructor function is used, ‘this’ refers to the specific instance of the object that is created and returned by the constructor function.
+    </p>
+    <p>
+      d) Explicit Binding: Overriding what the ‘this’ keyword is referring to using the .call() or .apply() method.
+    </p>
+    </br> 
+
+    <p> 5. Why do we need super() in an extended class? </p>
+    <p>
+      Because class is just sugar syntax in JavaScript, it means that 'class' is just another way to create constructor functions. super() abstracts the syntax .call() that we have been using in constructor functions to bind 'this' to object elements.
+    </p>
+
+  </section>
 </body>
 </html>
