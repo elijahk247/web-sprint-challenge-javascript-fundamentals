@@ -18,6 +18,11 @@ myFunction();
 
 // Explanation: 
 
+/*
+  The nested function can access the variable internal because the the variable is defined outside of the closure. 
+  Like the function myFunction being able to call on the global variable external, nestedFunction can call on the variable internal because it was defined outside of its scope.
+*/ 
+
 
 /* Task 2: Counter */
 
